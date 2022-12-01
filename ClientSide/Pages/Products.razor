@@ -1,0 +1,27 @@
+﻿@page "/products"
+@using ClientSide.Components.ProductTable
+<div class="row">
+    <div class="col-md-10">
+        <Search OnSearch="SearchChanged"/>
+    </div>
+    <div class="col-md-5">
+        <Sort OnSort="SortChanged"/>
+    </div>
+    <div class="col-md-2">
+        <a href="/createProduct">Create Product</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <ProductTable Products="ProductList"/>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <Pagination MetaData="MetaData" PageIndex="2" SelectedPage="SelectedPage" />
+    </div>
+</div>
+
+@code {
+
+}

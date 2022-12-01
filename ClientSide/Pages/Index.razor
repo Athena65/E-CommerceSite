@@ -1,0 +1,19 @@
+﻿@page "/"
+@page "/index"
+@using ClientSide.Components
+<Home Title="Welcome to the Burak Taminces App" src="/assets/homepage.png" alt="My Github Profile for HomePage">
+    <VisitGithubContent>
+    You can visit my
+    <a href="https://github.com/Athena65" target="_blank"> Github Profile</a>
+    anytime!
+    </VisitGithubContent>
+
+</Home>
+
+@code{
+    public Dictionary<string, object> AdditionalAttributes { get; set; } = new Dictionary<string, object>
+    {
+        { "src", "/assets/homepage.png"},
+        {"alt", "My Github Profile for HomePage"}
+    };
+}

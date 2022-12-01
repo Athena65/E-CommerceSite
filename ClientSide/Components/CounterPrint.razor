@@ -1,0 +1,32 @@
+﻿<h1>@Title</h1>
+<p>Current count: @CurrentCount</p>
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public int CurrentCount { get; set; }
+    //Lifecycle methods
+
+    protected override void OnInitialized()
+    {
+        Console.WriteLine($"OnInitialized => Title:{Title}, CurrentCount:{CurrentCount}");
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine($"OnParametersSet => Title:{Title}, CurrentCount:{CurrentCount}");
+    }
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Console.WriteLine($"This is the first render!");
+        }
+
+    }
+    protected override bool ShouldRender()
+    {
+        return true;
+    }
+
+}
