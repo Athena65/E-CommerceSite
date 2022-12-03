@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EictGK0sD0LwulwCDJuAYe1zdLm1HSNHHrwN5dfdWJgKt1gVNIq5iwU/7ovba5CtXI8b4HG8XFS90uR/kD6gIQ==",
+  "dgSpecHash": "RhHgKxP56wzfjoOiQ+Ax3xJACG9bLjIhsQ5GU9HBOxk19Uc60tIUfrwa3h4mksAIE9lCnLmnpKAP7EWL4DT87g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

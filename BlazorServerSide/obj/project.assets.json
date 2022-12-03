@@ -4045,11 +4045,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burak\\source\\repos\\E-Commerce\\BlazorServerSide\\BlazorServerSide.csproj",
+      "projectUniqueName": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\BlazorServerSide\\BlazorServerSide.csproj",
       "projectName": "BlazorServerSide",
-      "projectPath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\BlazorServerSide\\BlazorServerSide.csproj",
+      "projectPath": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\BlazorServerSide\\BlazorServerSide.csproj",
       "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\BlazorServerSide\\obj\\",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\BlazorServerSide\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4066,8 +4066,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\burak\\source\\repos\\E-Commerce\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\Entities\\Entities.csproj"
+            "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\Entities\\Entities.csproj"
             }
           }
         }

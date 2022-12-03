@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uytJVSE8kLIfzK4PMsBM35h8yHT+X7R+9x9jNvKVwUg2knbF7EiHAb98+otbXhOZr+yJy3T9d1Uuemh4ZVrxCw==",
+  "dgSpecHash": "DSFaKX5bzLryTkABbyRNJ3ZSHFvEd2D2QruaFnVVn7yhg3sr5dVg5kyxvbP2PVzWqUuRJiyalp6frVf8k1iwNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\BlazorServerSide\\BlazorServerSide.csproj",
+  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\BlazorServerSide\\BlazorServerSide.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IE/2LKunYxfweFhyFD9XQewvjsyom+/WGjf7joGHGf/kRa6rrNHjtzo1eJUlJIWt8/DC4IBaT4ZCW+VyTJbTcA==",
+  "dgSpecHash": "RXHRQW1GKNiTw7KjrWgCBYRn4DGTLmT6GpCuRqaqbp8ZV29uGEiOoRuiykN8MlMec4l1XN46EAzcCsiKrA5ykQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\ClientSide.csproj",
+  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\ClientSide\\ClientSide.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
