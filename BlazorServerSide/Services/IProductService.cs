@@ -7,7 +7,7 @@ namespace BlazorServerSide.Services
     public interface IProductService
     {
         Task<Product> CreateProduct(Product newProduct);
-        public Task<PagedList<Product>> GetAllProducts(ProductParameters productParameters);
+        Task<PagedList<Product>> GetAllProducts(ProductParameters productParameters);
         Task<Product> GetProductById(Guid id);
 
         Task<Product> RemoveProduct(Guid id);

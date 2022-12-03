@@ -1,9 +1,11 @@
-﻿using BlazorServerSide.Data;
+﻿using Azure.Core;
+using BlazorServerSide.Data;
 using BlazorServerSide.Paging;
 using BlazorServerSide.Services.Extensions;
 using Entities.Models;
 using Entities.RequestFeatures;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Http.Headers;
 
 namespace BlazorServerSide.Services
 {
@@ -62,5 +64,7 @@ namespace BlazorServerSide.Services
             await _context.SaveChangesAsync();
             return newProduct;
         }
+
+
     }
 }

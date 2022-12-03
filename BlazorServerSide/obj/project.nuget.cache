@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DSFaKX5bzLryTkABbyRNJ3ZSHFvEd2D2QruaFnVVn7yhg3sr5dVg5kyxvbP2PVzWqUuRJiyalp6frVf8k1iwNA==",
+  "dgSpecHash": "SHl/yver/gmjvDorehLnZMWw2naXXqm0sJNLHNOv0EGnTEExENNiUzp137FEweZJ6Bj5uCXen6WfjIeOmD/Nvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\BlazorServerSide\\BlazorServerSide.csproj",
+  "projectFilePath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\BlazorServerSide\\BlazorServerSide.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -57,6 +57,7 @@
     "C:\\Users\\burak\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",

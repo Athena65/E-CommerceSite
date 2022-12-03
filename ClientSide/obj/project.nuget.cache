@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RXHRQW1GKNiTw7KjrWgCBYRn4DGTLmT6GpCuRqaqbp8ZV29uGEiOoRuiykN8MlMec4l1XN46EAzcCsiKrA5ykQ==",
+  "dgSpecHash": "tSULwMQlVkwvwcHmBlZqdEtw+6QrWWVOPuMK7AeZRSSSsHpgia7BH4xsC9hkZtRA54HMpZHIaPvRkXht9SXBew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Belgeler\\GitHub\\E-CommerceSite\\ClientSide\\ClientSide.csproj",
+  "projectFilePath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\ClientSide.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
@@ -40,6 +40,7 @@
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.10\\microsoft.jsinterop.webassembly.6.0.10.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.linq.dynamic.core\\1.2.23\\system.linq.dynamic.core.1.2.23.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

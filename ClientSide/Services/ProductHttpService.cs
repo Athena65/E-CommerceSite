@@ -2,6 +2,7 @@
 using Entities.Models;
 using Entities.RequestFeatures;
 using Microsoft.AspNetCore.WebUtilities;
+using System.Text;
 using System.Text.Json;
 
 namespace ClientSide.Services
@@ -17,6 +18,22 @@ namespace ClientSide.Services
             _client = client;
             _options=new JsonSerializerOptions { PropertyNameCaseInsensitive= true };
         }
+
+        public async Task<Product> CreateProduct(Product newProduct)
+        {
+            var content= JsonSerializer.Serialize(newProduct);
+            var ContentBody=new StringContent(content,Encoding.UTF8,"application/json");
+
+            var postResult = await _client.PostAsync("Create", ContentBody);
+            var postContent= await postResult.Content.ReadAsStringAsync();
+
+            if(!postResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(postContent);
+            }
+            return newProduct;
+        }
+
         public async Task<PagingResponse<Product>> GetAllProducts(ProductParameters productParameters)
         {
             var queryStringParameters= new Dictionary<string, string>
@@ -41,6 +58,19 @@ namespace ClientSide.Services
             return pagingResponse;
         }
 
-
+        public async Task<string> UploadProductImage(MultipartFormDataContent content)
+        {
+            var postResult = await _client.PostAsync("https://localhost:5011/Upload", content);
+            var postContent= await postResult.Content.ReadAsStringAsync();  
+            if(!postResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(postContent);    
+            }
+            else
+            {
+                var imgUrl = Path.Combine("https://localhost:5011/", postContent);
+                return imgUrl;
+            }
+        }
     }
 }

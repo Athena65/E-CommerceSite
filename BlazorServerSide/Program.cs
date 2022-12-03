@@ -1,6 +1,7 @@
 using BlazorServerSide.Data;
 using BlazorServerSide.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager config = builder.Configuration;
@@ -29,7 +30,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
+app.UseStaticFiles(new StaticFileOptions()
+{
+    FileProvider=new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(),@"StaticFiles")),
+    RequestPath=new PathString("/StaticFiles")
+});   
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
