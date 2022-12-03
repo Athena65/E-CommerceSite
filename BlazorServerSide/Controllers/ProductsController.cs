@@ -34,6 +34,21 @@ namespace BlazorServerSide.Controllers
                 return BadRequest(response);
             }
         }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            try
+            {
+                return Ok(await _productService.GetProductById(id));
+            }
+            catch (Exception ex)
+            {
+                var response = new ServiceResponse();
+                response.Success = false;
+                response.Message = ex.Message;
+                return BadRequest(response);
+            }
+        }
         
         [HttpPost]
         public async Task<IActionResult> Create(Product newProduct)
@@ -50,7 +65,7 @@ namespace BlazorServerSide.Controllers
                 return BadRequest(response);
             }
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
             try
@@ -65,7 +80,7 @@ namespace BlazorServerSide.Controllers
                 return BadRequest(response);
             }
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> Update(Guid id, Product product)
         {
             try

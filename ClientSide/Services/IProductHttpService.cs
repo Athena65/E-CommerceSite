@@ -9,6 +9,9 @@ namespace ClientSide.Services
         Task<PagingResponse<Product>> GetAllProducts(ProductParameters productParameters);
         Task<Product> CreateProduct(Product newProduct);
         Task<string> UploadProductImage(MultipartFormDataContent content);
+        Task<Product> GetProductById(string id);
+        Task<Product> Update(Product product);
+        Task DeleteProduct(Guid id);
         
     }
 }

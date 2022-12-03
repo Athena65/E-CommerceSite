@@ -13,7 +13,7 @@
 </div>
 <div class="row">
     <div class="col">
-        <ProductTable Products="ProductList"/>
+        <ProductTable Products="ProductList" OnDeleted="DeleteProduct"></ProductTable>
     </div>
 </div>
 <div class="row">
@@ -21,6 +21,7 @@
         <Pagination MetaData="MetaData" PageIndex="2" SelectedPage="SelectedPage" />
     </div>
 </div>
+
 
 @code {
 
