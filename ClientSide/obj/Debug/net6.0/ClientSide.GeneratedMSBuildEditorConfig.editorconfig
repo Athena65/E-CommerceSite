@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/burak/source/repos/E-Commerce/ClientSide/Components/AuthLinks.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBdXRoTGlua3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/burak/source/repos/E-Commerce/ClientSide/Components/CounterPrint.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb3VudGVyUHJpbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/burak/source/repos/E-Commerce/ClientSide/Pages/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/burak/source/repos/E-Commerce/ClientSide/Pages/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/burak/source/repos/E-Commerce/ClientSide/Pages/ReportError.razor]

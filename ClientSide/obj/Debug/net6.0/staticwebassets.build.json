@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bvjVF07cmVIGtJKcfeIj5af3GDaetm0y1df6lc9tGRU=",
+  "Hash": "17x9eltwv08olKVl2ihCZZYqaA57Emcx9LWTf1grQJY=",
   "Source": "ClientSide",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.0\\staticwebassets\\AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.0\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.0\\staticwebassets\\AuthenticationService.js"
+    },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "ClientSide",
@@ -255,6 +272,23 @@
       "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.0\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
       "SourceId": "ClientSide",
       "SourceType": "Computed",
@@ -306,6 +340,23 @@
       "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.0\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+    },
+    {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "SourceId": "ClientSide",
       "SourceType": "Computed",
@@ -338,6 +389,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Cors.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Cryptography.Internal.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Cryptography.Internal.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\lib\\net6.0\\Microsoft.AspNetCore.Cryptography.Internal.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0\\lib\\net6.0\\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll"
     },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Abstractions.dll",
@@ -389,6 +474,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Features.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.0\\lib\\net6.0\\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll"
     },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
@@ -474,6 +576,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\lib\\net6.0\\Microsoft.EntityFrameworkCore.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Relational.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Relational.dll"
     },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
@@ -678,6 +797,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Identity.Core.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Identity.Core.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Identity.Core.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Identity.Stores.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Identity.Stores.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Identity.Stores.dll"
     },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
@@ -3791,6 +3944,23 @@
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.dll"
     },
     {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\0MVdm8T3.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll"
+    },
+    {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\0v2Q7MnX.gz",
       "SourceId": "ClientSide",
       "SourceType": "Computed",
@@ -3995,6 +4165,23 @@
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Handles.dll"
     },
     {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\5ggwd5rs.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Identity.Stores.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Identity.Stores.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Identity.Stores.dll"
+    },
+    {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\5QgIz9PN.gz",
       "SourceId": "ClientSide",
       "SourceType": "Computed",
@@ -4180,6 +4367,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.Immutable.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\9z90ZomR.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Cryptography.Internal.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Cryptography.Internal.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Cryptography.Internal.dll"
     },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\apHZApwR.gz",
@@ -4590,6 +4794,23 @@
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Formatters.dll"
     },
     {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\dMvFMDIg.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Identity.Core.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Identity.Core.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Identity.Core.dll"
+    },
+    {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\dsueS++L.gz",
       "SourceId": "ClientSide",
       "SourceType": "Computed",
@@ -4913,6 +5134,23 @@
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Transactions.dll"
     },
     {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\G97ILjSH.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\GAdOB4We.gz",
       "SourceId": "ClientSide",
       "SourceType": "Computed",
@@ -5117,6 +5355,23 @@
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Metadata.dll"
     },
     {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\hORXCSWv.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+    },
+    {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\hqGEzWpz.gz",
       "SourceId": "ClientSide",
       "SourceType": "Computed",
@@ -5319,6 +5574,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Process.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\JirLjWd0.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll"
     },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\jjAFYZhV.gz",
@@ -6985,6 +7257,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.ResourceManager.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\Xncj2qWN.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Relational.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll"
     },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\xza1hU3w.gz",

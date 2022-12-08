@@ -1,5 +1,14 @@
 ﻿@page "/counter"
-
+@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims;
+<AuthorizeView Roles="Administrator">
+    <Authorized>
+        The user:@context.User.FindFirst(ClaimTypes.Name).Value is authorized
+    </Authorized>
+    <NotAuthorized>
+        The user is'nt authorized
+    </NotAuthorized>
+</AuthorizeView >
 
 <CounterPrint CurrentCount="currentCount" Title="Counter"/>
 
@@ -7,9 +16,17 @@
 
 @code {
     private int currentCount = 0;
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; }
 
-    private void IncrementCount()
+    private async Task IncrementCount()
     {
-        currentCount++;
+        var authState = await AuthState;
+
+        var user = authState.User;
+        if (user.Identity.IsAuthenticated)
+            currentCount++;
+        else
+            currentCount--;
     }
 }

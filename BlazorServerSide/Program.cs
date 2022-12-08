@@ -1,5 +1,6 @@
 using BlazorServerSide.Data;
 using BlazorServerSide.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 
@@ -24,7 +25,9 @@ builder.Services.AddCors(policy =>
 builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IProductService, ProductService>();
-
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<DataContext>()
+    .AddDefaultTokenProviders();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -42,16 +45,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-using (var scope= app.Services.CreateScope())
-{
-    var services= scope.ServiceProvider;
-    SeedData.Initialize(services);  
-}
+   
 app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");
 app.UseRouting();
 
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 

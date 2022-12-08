@@ -55,7 +55,7 @@ namespace BlazorServerSide.Controllers
         {
             try
             {
-                return Ok(_productService.CreateProduct(newProduct) +$"{newProduct.Name} Created!");   
+                return Ok(await _productService.CreateProduct(newProduct) +$"{newProduct.Name} Created!");   
             }
             catch (Exception ex)
             {
