@@ -1,6 +1,7 @@
 ﻿using BlazorServerSide.Services;
 using Entities.Models;
 using Entities.RequestFeatures;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -8,6 +9,7 @@ namespace BlazorServerSide.Controllers
 {
     [ApiController]
     [Route("[action]")]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;

@@ -1722,3 +1722,7 @@ C:\Users\burak\source\repos\E-Commerce\ClientSide\obj\Debug\net6.0\build-gz\7Shn
 C:\Users\burak\source\repos\E-Commerce\ClientSide\obj\Debug\net6.0\build-gz\cOL7ls9Z.gz
 C:\Users\burak\source\repos\E-Commerce\ClientSide\obj\Debug\net6.0\build-gz\TLljtIbp.gz
 C:\Users\burak\source\repos\E-Commerce\ClientSide\obj\Debug\net6.0\build-gz\YzWdIwnZ.gz
+C:\Users\burak\source\repos\E-Commerce\ClientSide\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
+C:\Users\burak\source\repos\E-Commerce\ClientSide\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+C:\Users\burak\source\repos\E-Commerce\ClientSide\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\Users\burak\source\repos\E-Commerce\ClientSide\obj\Debug\net6.0\build-gz\6amxSgbC.gz

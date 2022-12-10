@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1wWqKeMerPgK9lsRu1cN1UoYqcGhoA83UcGXtYI9FtAdTu1xOIHANiMaKnnfQQJDLn12omD1fF2YqxDvTc3m1Q==",
+  "dgSpecHash": "vL9rqM0gUVRVjKKjUtNd3YklI/+asiLg/aslfLzJlrXUXLGGkShGgni2Kv10rLVJjf0xUpsT2i+9+Y8VR7SGPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\BlazorServerSide\\BlazorServerSide.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\burak\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",

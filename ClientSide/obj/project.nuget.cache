@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "J918S4+73AV/bBNRU/w6qc6d8JfUcc7IDfxGGQBb3zZifbOqyMqZVmLg4mH6u6YbT8uZgHixMgP1Lwow0LTTZw==",
+  "dgSpecHash": "KxY9PFtAse9KsN5U80B5KkmcP9X1bd5JWLaBq7r/oGEpTaWmRWfD/tBTDjxh6YOi8VhdTl11TGSdW541JC7LJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\ClientSide.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\burak\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.10\\microsoft.aspnetcore.components.analyzers.6.0.10.nupkg.sha512",

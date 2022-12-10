@@ -1,3 +1,4 @@
+using Blazored.LocalStorage;
 using ClientSide;
 using ClientSide.AuthProviders;
 using ClientSide.Services;
@@ -9,7 +10,8 @@ builder.RootComponents.Add<App>("#app");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5011/") });
 builder.Services.AddScoped<IProductHttpService,ProductHttpService>();
+builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddAuthorizationCore();
-builder.Services.AddScoped<AuthenticationStateProvider, TestAuthStateProvider>();
+builder.Services.AddScoped<AuthenticationStateProvider, AuthStateProvider>();
 builder.Services.AddScoped<IAuthenticationService,AuthenticationService>();
 await builder.Build().RunAsync();
