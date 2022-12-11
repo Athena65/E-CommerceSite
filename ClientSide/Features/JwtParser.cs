@@ -13,6 +13,7 @@ namespace ClientSide.Features
             var jsonBytes = ParseBase64WithoutPadding(payload);
             var keyValuePairs=JsonSerializer.Deserialize<Dictionary<string, object>>(jsonBytes);  
             claims.AddRange(keyValuePairs.Select(x=>new Claim(x.Key, x.Value.ToString())));
+            ExtractRolesFromJWT(claims,keyValuePairs);
 
             return claims;
         }
@@ -25,6 +26,27 @@ namespace ClientSide.Features
 
             }
             return Convert.FromBase64String(base64);
+        }
+        private static void ExtractRolesFromJWT(List<Claim> claims, Dictionary<string, object> keyValuePairs)
+        {
+            keyValuePairs.TryGetValue(ClaimTypes.Role, out object roles);
+            if(roles != null)
+            {
+                var parsedRoles=roles.ToString().Trim().TrimStart('[').TrimEnd(']').Split(',');
+                if(parsedRoles.Length > 1) 
+                {
+                    foreach (var parsedRole in parsedRoles)
+                    {
+                        claims.Add(new Claim(ClaimTypes.Role, parsedRole.Trim('"')));
+
+                    }
+                }
+                else
+                {
+                    claims.Add(new Claim(ClaimTypes.Role, parsedRoles[0]));
+                }
+                keyValuePairs.Remove(ClaimTypes.Role);
+            }
         }
     }
 }

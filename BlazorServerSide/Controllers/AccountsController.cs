@@ -1,4 +1,6 @@
-﻿using BlazorServerSide.Services;
+﻿using BlazorServerSide.Data;
+using BlazorServerSide.Services;
+using BlazorServerSide.TokenHelpers;
 using Entities.DTO;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,17 +12,19 @@ using System.Text;
 namespace BlazorServerSide.Controllers
 {
     [ApiController]
-    [Route("[action]")]
+    [Route("[controller]/[action]")]
     public class AccountsController : ControllerBase
     {
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<User> _userManager;
         private readonly IConfiguration _config;
+        private readonly ITokenService _tokenService;
         private readonly IConfigurationSection _jwtSettings;
 
-        public AccountsController(UserManager<IdentityUser> userManager, IConfiguration config)
+        public AccountsController(UserManager<User> userManager, IConfiguration config,ITokenService tokenService)
         {
             _userManager = userManager;
             _config = config;
+            _tokenService = tokenService;
             _jwtSettings = _config.GetSection("jwtSettings");
         }
         [HttpPost]
@@ -28,7 +32,7 @@ namespace BlazorServerSide.Controllers
         {
             try
             {
-                var user = new IdentityUser { UserName = userForRegistiration.Email , Email = userForRegistiration.Email };
+                var user = new User { UserName = userForRegistiration.Email , Email = userForRegistiration.Email };
                 var result = await _userManager.CreateAsync(user,userForRegistiration.Password);
 
                 
@@ -37,7 +41,7 @@ namespace BlazorServerSide.Controllers
                     var erros = result.Errors.Select(e => e.Description);
                     return BadRequest(new RegistrationResponseDto { Errors= erros });   
                 }
-                
+                await _userManager.AddToRoleAsync(user, "Viewer");
                 return Ok(result);
             }
             catch (Exception ex)
@@ -57,11 +61,14 @@ namespace BlazorServerSide.Controllers
                 if(user==null|| !await _userManager.CheckPasswordAsync(user, authenticationDto.Password))
                     return Unauthorized(new AuthResponseDto { ErrorMessage="Invalid Email or Password"});
 
-                var signin = GetSigningCredentials();
-                var claims = GetClaims(user);
-                var tokenOpt = GenerateTokenOptions(signin, claims);
+                var signin = _tokenService.SigningCredentials();
+                var claims = await _tokenService.GetClaims(user);
+                var tokenOpt = _tokenService.GenerateTokenOpt(signin, claims);
                 var token= new JwtSecurityTokenHandler().WriteToken(tokenOpt);
-                
+
+                user.RefreshToken = _tokenService.GenerateRefreshToken();
+                user.RefreshTokenExpiryTime = DateTime.Now.AddDays(7);
+                await _userManager.UpdateAsync(user);   
                 return Ok(new AuthResponseDto { IsAuthSuccessful=true, Token=token});
 
 
@@ -76,33 +83,7 @@ namespace BlazorServerSide.Controllers
 
 
         }//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlcmFAZXhhbXBsZS5jb20iLCJleHAiOjE2NzA2NjcwMTQsImlzcyI6IkJ1cmFrX1RhbWluY2UiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo1MDExLyJ9.btE53T1ddcvmg4E2NQOvQCZ6oirBjJLBFi4ERO69b5g
-        private SigningCredentials GetSigningCredentials()
-        {
-            var key = Encoding.UTF8.GetBytes(_jwtSettings["securityKey"]);
-            var secret = new SymmetricSecurityKey(key);
 
-            return new SigningCredentials(secret, SecurityAlgorithms.HmacSha256);
-        }
-        private  List<Claim> GetClaims(IdentityUser user)
-        {
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name,user.Email)
-            };
-            return claims;
-        }
-        private JwtSecurityToken GenerateTokenOptions(SigningCredentials signingCredentials, List<Claim> claims)
-        {
-            var tokenOpt = new JwtSecurityToken(
-                issuer: _jwtSettings["validIssuer"],
-                audience: _jwtSettings["validAudience"],
-                claims: claims,
-                expires: DateTime.Now.AddMinutes(Convert.ToDouble(_jwtSettings["expiryInMinutes"])),
-                signingCredentials: signingCredentials
-                );
-            return tokenOpt;
-
-        }
 
     }
 }

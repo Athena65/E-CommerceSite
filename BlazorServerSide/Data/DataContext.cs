@@ -6,22 +6,22 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlazorServerSide.Data
 {
-    public class DataContext:IdentityDbContext<IdentityUser>
+    public class DataContext:IdentityDbContext<User>
     {
         public DataContext(DbContextOptions<DataContext> options):base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<UserForRegistrationDto>(c=>c.HasKey("Email"));
+            modelBuilder.Entity<User>(c => c.HasKey("Id"));
             modelBuilder.HasDefaultSchema("Identity");
-            modelBuilder.Entity<IdentityUser>(entity =>
+            modelBuilder.Entity<User>(entity =>
             {
-                entity.ToTable(name: "User");
+                entity.ToTable(name:"User");
             });
             modelBuilder.Entity<IdentityRole>(entity =>
             {
-                entity.ToTable(name: "Role");
+                entity.ToTable(name:"Role");
             });
             modelBuilder.Entity<IdentityUserRole<string>>(entity =>
             {
@@ -45,6 +45,5 @@ namespace BlazorServerSide.Data
             });
         }
         public DbSet<Product> Products { get; set; }
-        public DbSet<UserForRegistrationDto> UserForRegistration { get; set; }  
     }
 }

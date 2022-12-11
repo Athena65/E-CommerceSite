@@ -863,6 +863,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Toolbelt.Blazor.HttpClientInterceptor/10.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "3.2.0-preview2.20160.5"
+        },
+        "compile": {
+          "lib/netstandard2.1/Toolbelt.Blazor.HttpClientInterceptor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Toolbelt.Blazor.HttpClientInterceptor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1733,6 +1749,22 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Toolbelt.Blazor.HttpClientInterceptor/10.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "3.2.0-preview2.20160.5"
+        },
+        "compile": {
+          "lib/netstandard2.1/Toolbelt.Blazor.HttpClientInterceptor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Toolbelt.Blazor.HttpClientInterceptor.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Entities/1.0.0": {
@@ -3034,6 +3066,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Toolbelt.Blazor.HttpClientInterceptor/10.2.0": {
+      "sha512": "Su8wCbdC8AvTrqysjfIr0Pct6xW6foqwNDyVStRoWnntJtGpksj8DaEBMUpG4O+dLDbxPqpJhDsi4IYEqOesjA==",
+      "type": "package",
+      "path": "toolbelt.blazor.httpclientinterceptor/10.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.1/Toolbelt.Blazor.HttpClientInterceptor.dll",
+        "lib/netstandard2.1/Toolbelt.Blazor.HttpClientInterceptor.xml",
+        "nupkg-icon.png",
+        "toolbelt.blazor.httpclientinterceptor.10.2.0.nupkg.sha512",
+        "toolbelt.blazor.httpclientinterceptor.nuspec"
+      ]
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -3049,7 +3096,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.10",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.AspNetCore.WebUtilities >= 2.2.0",
-      "System.Linq.Dynamic.Core >= 1.2.23"
+      "System.Linq.Dynamic.Core >= 1.2.23",
+      "Toolbelt.Blazor.HttpClientInterceptor >= 10.2.0"
     ]
   },
   "packageFolders": {
@@ -3123,6 +3171,10 @@
           "System.Linq.Dynamic.Core": {
             "target": "Package",
             "version": "[1.2.23, )"
+          },
+          "Toolbelt.Blazor.HttpClientInterceptor": {
+            "target": "Package",
+            "version": "[10.2.0, )"
           }
         },
         "imports": [

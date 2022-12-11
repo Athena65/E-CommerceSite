@@ -6,7 +6,8 @@ namespace ClientSide.Services
     {
         Task<RegistrationResponseDto> RegisterUser(UserForRegistrationDto userForRegistiration);
         Task<AuthResponseDto> Login(UserForAuthenticationDto userForAuthentication);
-        Task Logout(); 
+        Task Logout();
+        Task<string> RefreshToken();
 
     }
 }

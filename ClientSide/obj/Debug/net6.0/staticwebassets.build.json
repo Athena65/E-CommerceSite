@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t7/7HWbx1FIHkU73UnREhTg28HjgJXahi0P56GycPPM=",
+  "Hash": "SfyhMJsTRydQtYnrNPTW6BmiSrbh30xG40D1XxXzlH8=",
   "Source": "ClientSide",
   "BasePath": "/",
   "Mode": "Root",
@@ -3791,6 +3791,23 @@
       "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\6.0.11\\runtimes\\browser-wasm\\lib\\net6.0\\System.Xml.XPath.XDocument.dll"
     },
     {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Toolbelt.Blazor.HttpClientInterceptor.dll",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Toolbelt.Blazor.HttpClientInterceptor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\.nuget\\packages\\toolbelt.blazor.httpclientinterceptor\\10.2.0\\lib\\netstandard2.1\\Toolbelt.Blazor.HttpClientInterceptor.dll"
+    },
+    {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowsBase.dll",
       "SourceId": "ClientSide",
       "SourceType": "Computed",
@@ -4010,6 +4027,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.dll"
+    },
+    {
+      "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\2aAio2Q7.gz",
+      "SourceId": "ClientSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Toolbelt.Blazor.HttpClientInterceptor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Toolbelt.Blazor.HttpClientInterceptor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Toolbelt.Blazor.HttpClientInterceptor.dll"
     },
     {
       "Identity": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\obj\\Debug\\net6.0\\build-gz\\2EP00ix+.gz",

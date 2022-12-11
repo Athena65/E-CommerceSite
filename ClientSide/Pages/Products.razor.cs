@@ -5,13 +5,15 @@ using Entities.RequestFeatures;
 
 namespace ClientSide.Pages
 {
-    public partial class Products
+    public partial class Products:IDisposable
     {
         public List<Product> ProductList { get; set; }  = new List<Product>();
         public MetaData MetaData { get; set; }= new MetaData(); 
         private ProductParameters _productParameters = new ProductParameters();
         [Inject]
-        public IProductHttpService ProductRepo { get; set; }    
+        public IProductHttpService ProductRepo { get; set; }
+        [Inject]
+        public InterceptorService Interceptor { get; set; }
 
         protected async override Task OnInitializedAsync()
         {
@@ -48,5 +50,8 @@ namespace ClientSide.Pages
             _productParameters.PageNumber = 1;
             await GetProducts();
         }
+
+        public void Dispose() => Interceptor.DisposeEvent();
+
     }
 }

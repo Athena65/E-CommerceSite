@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KxY9PFtAse9KsN5U80B5KkmcP9X1bd5JWLaBq7r/oGEpTaWmRWfD/tBTDjxh6YOi8VhdTl11TGSdW541JC7LJQ==",
+  "dgSpecHash": "mElwPiwN6hI2Ry6aytgqUOkWhYAqPlOepz9LzZJQl2Sbg8Ny0eoFrxguW59jpGxVQfuPq4tEzr83+nBtwSluzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\burak\\source\\repos\\E-Commerce\\ClientSide\\ClientSide.csproj",
   "expectedPackageFiles": [
@@ -54,7 +54,8 @@
     "C:\\Users\\burak\\.nuget\\packages\\system.linq.dynamic.core\\1.2.23\\system.linq.dynamic.core.1.2.23.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\burak\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\burak\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\toolbelt.blazor.httpclientinterceptor\\10.2.0\\toolbelt.blazor.httpclientinterceptor.10.2.0.nupkg.sha512"
   ],
   "logs": []
 }

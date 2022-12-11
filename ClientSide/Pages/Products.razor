@@ -1,7 +1,7 @@
 ﻿@page "/products"
 @using ClientSide.Components.ProductTable
 @using Microsoft.AspNetCore.Authorization
-@attribute [Authorize]
+@attribute [Authorize(Roles ="Admin")]
 <div class="row">
     <div class="col-md-10">
         <Search OnSearch="SearchChanged"/>

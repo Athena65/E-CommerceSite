@@ -9,7 +9,7 @@ namespace BlazorServerSide.Controllers
 {
     [ApiController]
     [Route("[action]")]
-    [Authorize]
+    [Authorize(Roles ="Admin")]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
